@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <script src="cordova.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="alternate stylesheet" href="css/contraste.css" title="Alto Contraste">
+    <script src="components/loader.js"></script>
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- linha -->
+            <ul class="navbar">
+                <!-- colunas -->
+                <li id="img-div"><img src="etec-logo.png" width="100%"></li>
+                <li><a href="index.html">INÍCIO</a></li>
+                <li><a href="cursos.html" class="active-page">CURSOS</a></li>
+                <li><a href="https://www.vestibulinhoetec.com.br/candidato/dados-acesso.asp">INSCRIÇÃO</a></li>
+            </ul>
+            <ul>
+                 <li class="acc-btn-cursos"> <button onclick="toggleContrast()">A</button>
+                    <button  id="aumentar">+</button>
+                    <button  id="diminuir">-</button></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-curso">
+        <h1 class="titulo-curso">Farmácia</h1>
+        <h3 class="periodo-curso"> Período noturno </h3>
+        <h2 class="sobre-curso">- Sobre o curso -</h1>
+        <p class="ds-curso text">O curso de Farmácia na Etec oferece uma formação abrangente para os alunos interessados na área farmacêutica. Durante o curso, os estudantes aprendem a manipular medicamentos, realizar testes de controle de qualidade e auxiliar nas rotinas das farmácias, incluindo o armazenamento e controle de estoque de medicamentos. Além disso, são capacitados para orientar os pacientes sobre receitas médicas, conservação e uso correto de cada medicamento, desempenhando um papel crucial na promoção da saúde e segurança dos usuários.</p>
+    </main>
+    <div>
+        <button onclick="returntopage()" class="return-btn"><img src="img/return.png" class="return-img" ></button>
+    </div>
+</body>
+</html>

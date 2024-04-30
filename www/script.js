@@ -22,3 +22,32 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+function returntopage(){
+    window.location.assign("cursos.html");
+};
+
+function inf(){
+    window.location.assign("curso-inf.html");
+};
+
+function adm(){
+    window.location.assign("curso-adm.html");
+};
+
+function amb(){
+    window.location.assign("curso-amb.html");
+};
+
+function ds(){
+    window.location.assign("curso-ds.html");
+};
+
+function farm(){
+    window.location.assign("curso-farm.html");
+};
+
+function admmod(){
+    window.location.assign("curso-admmod.html");
+};
+

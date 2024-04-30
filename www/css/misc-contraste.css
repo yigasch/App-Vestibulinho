@@ -18,9 +18,12 @@ ul {
 
 a {
     text-decoration: none;
-    color: yellow;
-    font-weight: 500;
+    color: black;
+    font-weight: 900;
     font-size: 0.6em;
+    border: 3px solid black;
+    padding: 0.8em;
+    background-color: #00f7f7;
 }
 a:hover {
     font-size: 0.8em;
@@ -71,10 +74,12 @@ a:hover {
 }
 
 h3 {
-color: white;
+    color: black;
+    background-color: #00f7f7;
     text-align: left;
     font-size: 1.5em;
     font-weight: 800;
+    padding: 0.5em;
 }
 
 
@@ -89,7 +94,7 @@ button{
     justify-content: center;
     flex-direction: column;
     border: 2px solid yellow;
-    background-color: #50b08a00;
+    background-color: black;
     color: yellow;
     font-weight: 800;
     width: 3em;

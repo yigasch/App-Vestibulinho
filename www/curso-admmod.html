@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <script src="cordova.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="alternate stylesheet" href="css/contraste.css" title="Alto Contraste">
+    <script src="components/loader.js"></script>
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- linha -->
+            <ul class="navbar">
+                <!-- colunas -->
+                <li id="img-div"><img src="etec-logo.png" width="100%"></li>
+                <li><a href="index.html">INÍCIO</a></li>
+                <li><a href="cursos.html" class="active-page">CURSOS</a></li>
+                <li><a href="https://www.vestibulinhoetec.com.br/candidato/dados-acesso.asp">INSCRIÇÃO</a></li>
+            </ul>
+             <ul>
+                 <li class="acc-btn-cursos"> <button onclick="toggleContrast()">A</button>
+                    <button  id="aumentar">+</button>
+                    <button  id="diminuir">-</button></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-curso">
+        <h1 class="titulo-curso">Administração</h1>
+        <h3 class="periodo-curso"> Período noturno </h3>
+        <h2 class="sobre-curso">- Sobre o curso -</h1>
+        <p class="ds-curso text">Oferecido das 19h às 23h, estruturado em três módulos distintos.</p><p class="ds-curso text">
+        › O Módulo I conduz à Qualificação Profissional Técnica de Nível Médio de Auxiliar Administrativo.</p><p class="ds-curso text">
+        › Com a conclusão do Módulo II, o aluno obtém a Qualificação Profissional Técnica de Nível Médio de Assistente Administrativo.</p><p class="ds-curso text">
+        › Ao completar o Módulo III, o aluno recebe o Diploma de Técnico em Administração.</p><p class="ds-curso text">
+        Durante o curso, os alunos adquirem habilidades para participar da gestão de recursos mercadológicos, humanos, financeiros, materiais e produtivos. Eles executam rotinas administrativas, controlam materiais, monitoram eficiência e produtividade, além de prestar atendimento a clientes.</p>
+    </main>
+    <div>
+        <button onclick="returntopage()" class="return-btn"><img src="img/return.png" class="return-img" ></button>
+    </div>
+</body>
+</html>

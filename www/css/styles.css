@@ -75,9 +75,9 @@ table>*{
     text-decoration: 2px underline;
 }
 
-.acc-btn{
+.acc-btn-cursos{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 button{
@@ -96,4 +96,33 @@ button{
     border-radius: 2em;
 }button:hover{
     cursor: pointer;
+}
+
+.main-curso{
+    color: white;
+    padding: 1.3em;
+    text-align: justify;
+    line-height: 170%;
+}
+
+.titulo-curso{
+    color: #50B08A;
+    text-align: center;
+    margin: 0;
+}
+
+.periodo-curso{
+    margin-top: 0.4em;
+}
+
+.ds-curso{
+    margin: 0.3em;
+}
+
+.return-btn{
+    padding: 0;
+    margin: 0 2em;
+}
+.return-img{
+    width: 95%;
 }
